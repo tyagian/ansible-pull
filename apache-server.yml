@@ -1,5 +1,5 @@
 ---
-# Check if ypserv is running, if not start it and report
+# Check if apache is running, if not start it and report
 
 - hosts: localhost
   tasks:
