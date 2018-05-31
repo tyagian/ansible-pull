@@ -2,7 +2,7 @@
 # Check if apache is running, if not start it and report
 
 - hosts: localhost
-tasks:
+  tasks:
     - name: install apache2
       apt: name=apache2 state=latest
     - name: Check if apache is running else start it.
