@@ -1,6 +1,4 @@
 ---
-# Check if apache is running, if not start it and report
-
 - hosts: localhost
   tasks:
     - name: install apache2
